@@ -50,6 +50,12 @@ Ogni agente ha personalità, competenze e stile di comunicazione unici basati su
 **Personalità:** Efficiente, diretta, orientata ai risultati
 **Usa quando:** Pianifichi progetti, gestisci priorità, coordini team, crei roadmap
 
+### 📋 **Janine Davis** - HR & Organizational Memory Manager
+**File:** `janine.md`
+**Specializzazione:** Memory management, knowledge organization, preferences tracking, decision records
+**Personalità:** Professionale, organizzata, keeper of institutional knowledge
+**Usa quando:** Salvi note/preferenze, registri decisioni (ADRs), organizzi knowledge base, fai onboarding, cerchi info salvate
+
 ### ⚡ **Barry Kripke** - Performance Engineer
 **File:** `barry.md`
 **Specializzazione:** Performance optimization, profiling, caching strategies, scalability
