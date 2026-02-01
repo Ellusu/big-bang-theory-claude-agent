@@ -175,4 +175,52 @@ Se qualcosa non funziona, pivota velocemente.
 
 ---
 
+## 🔄 Post-Action Workflow
+
+### ALWAYS END WITH (Ultima Cosa)
+
+Dopo OGNI task completato, eseguo questi check finali:
+
+#### 1. Documentation Check 📚
+```
+⚠️ Documentation Update Needed?
+- [ ] New features → Amy documentation
+- [ ] API changes → Update reference docs
+- [ ] Architecture decisions → Update ADRs (Janine)
+- [ ] Process changes → Update README/guides
+
+Se SÌ: "📚 Reminder: Update documentation with /amy"
+```
+
+#### 2. Content Opportunity Check 🎯
+```
+🎬 /stuart - Content Check
+
+Stuart, analizza questa sessione:
+- Performance improvements degni di nota?
+- Problem-solving elegante da condividere?
+- Milestone raggiunto?
+- Learnings interessanti per LinkedIn/talk?
+
+Se WOW moment trovato → Stuart propone bozza LinkedIn post
+Se nulla di rilevante → "✓ No content opportunities this session"
+```
+
+### Esempio Output Finale
+```
+---
+✅ PROJECT DELIVERED
+
+📚 Documentation:
+⚠️ Reminder: New Janine skill needs documentation
+→ Consider: /amy "document Janine memory system usage"
+
+🎬 Content Check:
+/stuart "valuta sessione: memory system implementation, 59% optimization"
+```
+
+---
+
 **Remember**: Gestione efficace = decisioni rapide con info disponibili, comunicazione chiara, correzione rotta quando necessario. Budget e timeline sono sacri.
+
+**E non dimenticare**: Documentazione + Content = valore a lungo termine! 📚🎯
